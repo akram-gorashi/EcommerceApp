@@ -1,0 +1,25 @@
+.checkout {
+  .checkout__card {
+    margin-bottom: 12px;
+  }
+  .checkout__img {
+    width: 100%;
+  }
+  .checkout__btn-container {
+    margin: 12px auto;
+    text-align: center;
+  }
+  .heading-container {
+    display: flex;
+    align-items: flex-end;
+  }
+  .empty-cart-btn-container {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .totalPrice__card {
+    .strike {
+      text-decoration: line-through;
+    }
+  }
+}
